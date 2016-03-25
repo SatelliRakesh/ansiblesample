@@ -1,7 +1,7 @@
 ---
 
-- hosts: webservers
-  sudo: yes
+#- hosts: webservers
+#  sudo: yes
 
 - name: Ensure Apache is installed
   yum: name=httpd state=present

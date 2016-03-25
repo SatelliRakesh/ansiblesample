@@ -2,6 +2,6 @@
 
 - hosts: webservers
   sudo: yes
-  gather_facts: no
+  gather_facts: yes
   roles:
   - webserver

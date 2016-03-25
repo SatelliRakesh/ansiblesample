@@ -1,11 +1,10 @@
 [webservers]
+52.79.138.129
 
-123.23.65.4
-
-[datacenter:vars]
+[webservers:vars]
 ansible_ssh_user=rakesh
 ansible_ssh_pass=hello@123
-ansible_ssh_sudo_pass=Welcome@1234
+ansible_sudo_pass=hello@123
 
 
 
