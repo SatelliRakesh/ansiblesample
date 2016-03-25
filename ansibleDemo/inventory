@@ -5,7 +5,7 @@
 [datacenter:vars]
 ansible_ssh_user=rakesh
 ansible_ssh_pass=hello@123
-
+ansible_ssh_sudo_pass=Welcome@1234
 
 
 
